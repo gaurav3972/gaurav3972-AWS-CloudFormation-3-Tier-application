@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-# gaurav3972-AWS-CloudFormation-3-Tier-application
-=======
 # **3-Tier Web Application Architecture on AWS using CloudFormation with SNS Notification**
-Sure! Here's a **more attractive and professional version** of your documentation content, ideal for showcasing on **GitHub**, **LinkedIn**, or a portfolio\*\*. It includes emoji styling, structured markdown formatting, and crisp language:
-
----
 
 ## 🚀 Project Title: **3-Tier Web Application Architecture on AWS using CloudFormation with SNS Notification**
 
----
 
 ### 🎯 **Objective**
 
@@ -76,7 +69,6 @@ Before deploying the stack, ensure the following:
 Here’s a visual representation of the deployed infrastructure:
 
 📎 *(Click to enlarge if hosted on GitHub or portfolio)*
-![3-Tier Architecture on AWS](./A_diagram_illustrates_a_three-tier_architecture_on.png)
+![3-Tier Architecture on AWS]()
 
 ---
->>>>>>> bc6e26d (adddd)
