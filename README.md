@@ -81,7 +81,7 @@ Parameters:
     Type: String
     Default: 10.0.0.0/16
 ```
-
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20231944.png)
 🔹 Use `NoEcho: true` for sensitive parameters like passwords
 🔹 You can add `AllowedPattern`, `MinLength`, and `MaxLength` to validate inputs
 
@@ -158,7 +158,7 @@ WebSG:
 ---
 
 ### ⚖️ Step 6: Load Balancer – Traffic Distribution
-
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20231420.png)
 ```yaml
 LoadBalancer:
   Type: AWS::ElasticLoadBalancingV2::LoadBalancer
@@ -173,7 +173,7 @@ LoadBalancer:
 ---
 
 ### 🖥️ Step 7: EC2 Instances – Web & App Layers
-
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20231333.png)
 ```yaml
 WebInstance:
   SubnetId: !Ref PublicSubnet1
@@ -246,7 +246,7 @@ Outputs:
 🟢 *Tip:* Include RDS endpoint and EC2 public IPs for debugging purposes.
 
 ---
-
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20214541.png)
 ## 🎯 Final Notes
 
 ### 🔄 Reusability Tips
