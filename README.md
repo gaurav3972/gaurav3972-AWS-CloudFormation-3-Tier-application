@@ -15,7 +15,9 @@ To build and automate the deployment of a **secure, scalable, and highly availab
 * 📩 SNS Email Notifications for stack creation completion
 
 ---
-
+### 🖼️ **Architecture Diagram**
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/1.png)
+****
 ### 🧠 **Project Overview**
 
 This project demonstrates the use of **Infrastructure as Code (IaC)** to deploy a fully functional **3-tier architecture**, commonly used for modern web applications.
@@ -61,13 +63,7 @@ Before deploying the stack, ensure the following:
 * 📧 **Verified Email** to receive SNS notifications
 * 🌐 Valid **Amazon Linux 2 AMI ID** for your region (`ami-0c02fb55956c7d316`)
 * 🧾 An IAM Role or User with appropriate **CloudFormation stack privileges**
-
----
-
-### 🖼️ **Architecture Diagram**
-![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/1.png)
----
-
+****
 ## 🚀 Enhanced Step-by-Step CloudFormation Walkthrough
 
 This enriched version explains your CloudFormation code **inline with AWS best practices**, giving extra info about each resource’s role in the architecture.
@@ -112,7 +108,7 @@ MyVPC:
 InternetGateway:
   Type: AWS::EC2::InternetGateway
 ```
-
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20231638.png)
 * Public subnets route through the **Internet Gateway**
 * Private subnets route through the **NAT Gateway** (so they can access the internet securely)
 
@@ -138,7 +134,7 @@ PublicRoute:
 ---
 
 ### 🔐 Step 5: Security Groups – Layered Security
-
+![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20231609.png)
 ```yaml
 WebSG:
   Type: AWS::EC2::SecurityGroup
