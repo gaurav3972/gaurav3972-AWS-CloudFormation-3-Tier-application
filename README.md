@@ -257,9 +257,6 @@ Outputs:
 This CloudFormation template provisions a robust 3-tier architecture on AWS, featuring a custom VPC with both public and private subnets spread across multiple Availability Zones for high availability and fault tolerance. It deploys an internet-facing Application Load Balancer to distribute incoming traffic to web-tier EC2 instances located in public subnets, while the application-tier instances and an RDS MySQL database reside securely within private subnets. Security Groups enforce strict access control between tiers, ensuring secure communication paths. Additionally, the template includes an SNS topic that sends email notifications upon successful stack creation, helping administrators stay informed about deployment status. Overall, this automated infrastructure setup follows AWS best practices for scalability, security, and ease of management.
 
 ---
-Here’s a simple, clear **License** section you can add to your project documentation:
-
----
 
 ## 🔐 License
 
