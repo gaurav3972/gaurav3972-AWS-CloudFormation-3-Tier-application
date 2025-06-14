@@ -1,8 +1,4 @@
 # **3-Tier Web Application Architecture on AWS using CloudFormation with SNS Notification**
-
-## 🚀 Project Title: **3-Tier Web Application Architecture on AWS using CloudFormation with SNS Notification**
-
-
 ### 🎯 **Objective**
 
 To build and automate the deployment of a **secure, scalable, and highly available 3-tier architecture** on AWS using **CloudFormation**, integrating:
