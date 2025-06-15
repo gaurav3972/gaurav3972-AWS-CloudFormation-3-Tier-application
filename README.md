@@ -7,7 +7,7 @@ To build and automate the deployment of a **secure, scalable, and highly availab
 * EC2 Web & App Instances
 * RDS (MySQL) Database
 * Load Balancer
-* NAT Gateway
+* NAT Gateways
 * 📩 SNS Email Notifications for stack creation completion
 
 ---
