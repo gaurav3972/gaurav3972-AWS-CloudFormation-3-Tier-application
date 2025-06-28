@@ -235,7 +235,7 @@ Outputs:
 * `LoadBalancerDNS`: Use to test public access
 * `SNSTopicArn`: Helpful for automation or integration with other stacks
 
-🟢 *Tip:* Include RDS endpoint and EC2 public IPs for debugging purposes.
+🟢 *Tip:* Include RDS endpoint and EC2 public IPs for debugging purposes
 
 ---
 ![](https://github.com/gaurav3972/gaurav3972-AWS-CloudFormation-3-Tier-application/blob/main/Images/Screenshot%202025-06-13%20214541.png)
